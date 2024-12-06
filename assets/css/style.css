@@ -1192,18 +1192,20 @@ section {
 }
 
 .partner-img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto 15px;
-  border-radius: 50%;
+  border-radius: 5%;
   overflow: hidden;
-  border: 3px solid #ddd;
+  /* border: 3px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
 .partner-img img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  object-position: center;
 }
 
 .partner-item h4 {
