@@ -275,7 +275,9 @@
   /**
    * Partners slider
    */
-  var swiper = new Swiper(".partners-slider", {
+  new Swiper(".partners-slider", {
+    speed: 600,
+    loop: true,
     slidesPerView: 3,
     spaceBetween: 20,
     pagination: {
